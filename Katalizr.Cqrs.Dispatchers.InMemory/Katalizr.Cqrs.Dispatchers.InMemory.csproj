@@ -1,0 +1,8 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Katalizr.Cqrs.Contracts" Version="2017.8.25.19533-feature-initialization" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+version: '{build}'
+max_jobs: 1
+image: Visual Studio 2017
+configuration: Release
+build_script:
+  - ps: .\init.ps1
+  - ps: .\build.ps1
+test: off
+nuget:
+  account_feed: true
+  project_feed: true
+  disable_publish_on_pr: true
+artifacts:
+  - path: .\artifacts\**\*.nupkg
+    name: NuGet
+deploy:
+  - provider: NuGet
+    server: https://www.myget.org/F/katalizr/api/v2/package
+    api_key:
+      secure: U2/tuKRrqT7ne4VpvxSvIaqZFUCPNJ344hL4THcvGZMtbFE+gFc+PchfIS0bzdT2
+    skip_symbols: true
+  - provider: NuGet
+    name: production
+    api_key:
+      secure: 6TYOyKLliA2tGy5WUqrjyKc+mHewCVCtrw2MvrC3BNj8NFble+in7gb/LKaZJ9fG
+    on:
+      branch: master

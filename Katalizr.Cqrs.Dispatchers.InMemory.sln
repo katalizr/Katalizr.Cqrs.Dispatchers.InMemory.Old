@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katalizr.Cqrs.Dispatchers.InMemory", "Katalizr.Cqrs.Dispatchers.InMemory\Katalizr.Cqrs.Dispatchers.InMemory.csproj", "{6698FFCD-D1E3-443E-B12F-01FC2DAE9C4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katalizr.Cqrs.Dispatchers.InMemory.Tests", "Katalizr.Cqrs.Dispatchers.InMemory.Tests\Katalizr.Cqrs.Dispatchers.InMemory.Tests.csproj", "{FC6A971C-189F-4B1E-952D-BAAA5D7725AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Solution", "00. Solution", "{9846AC50-729F-4B92-8948-DC91B597F854}"
+ProjectSection(SolutionItems) = preProject
+	LICENSE = LICENSE
+	README.md = README.md
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Solution", "01. Solution", "{C9CBCDDC-0178-4437-8E3B-4C8B2EAC7867}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Git", "00. Git", "{2645FDAF-D8EF-4BAE-B8B2-FE2DE6249949}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Styling", "01. Styling", "{5ACEF295-FD57-4115-8436-DB0020F9C158}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Continuous Integration", "02. Continuous Integration", "{70AEE476-CDCE-4105-93BF-94EAB207696C}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+		build.ps1 = build.ps1
+		init.ps1 = init.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6698FFCD-D1E3-443E-B12F-01FC2DAE9C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6698FFCD-D1E3-443E-B12F-01FC2DAE9C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6698FFCD-D1E3-443E-B12F-01FC2DAE9C4B}.Debug|x64.ActiveCfg = Debug|x64
+		{6698FFCD-D1E3-443E-B12F-01FC2DAE9C4B}.Debug|x64.Build.0 = Debug|x64
+		{6698FFCD-D1E3-443E-B12F-01FC2DAE9C4B}.Debug|x86.ActiveCfg = Debug|x86
+		{6698FFCD-D1E3-443E-B12F-01FC2DAE9C4B}.Debug|x86.Build.0 = Debug|x86
+		{6698FFCD-D1E3-443E-B12F-01FC2DAE9C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6698FFCD-D1E3-443E-B12F-01FC2DAE9C4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6698FFCD-D1E3-443E-B12F-01FC2DAE9C4B}.Release|x64.ActiveCfg = Release|x64
+		{6698FFCD-D1E3-443E-B12F-01FC2DAE9C4B}.Release|x64.Build.0 = Release|x64
+		{6698FFCD-D1E3-443E-B12F-01FC2DAE9C4B}.Release|x86.ActiveCfg = Release|x86
+		{6698FFCD-D1E3-443E-B12F-01FC2DAE9C4B}.Release|x86.Build.0 = Release|x86
+		{FC6A971C-189F-4B1E-952D-BAAA5D7725AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC6A971C-189F-4B1E-952D-BAAA5D7725AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC6A971C-189F-4B1E-952D-BAAA5D7725AA}.Debug|x64.ActiveCfg = Debug|x64
+		{FC6A971C-189F-4B1E-952D-BAAA5D7725AA}.Debug|x64.Build.0 = Debug|x64
+		{FC6A971C-189F-4B1E-952D-BAAA5D7725AA}.Debug|x86.ActiveCfg = Debug|x86
+		{FC6A971C-189F-4B1E-952D-BAAA5D7725AA}.Debug|x86.Build.0 = Debug|x86
+		{FC6A971C-189F-4B1E-952D-BAAA5D7725AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC6A971C-189F-4B1E-952D-BAAA5D7725AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC6A971C-189F-4B1E-952D-BAAA5D7725AA}.Release|x64.ActiveCfg = Release|x64
+		{FC6A971C-189F-4B1E-952D-BAAA5D7725AA}.Release|x64.Build.0 = Release|x64
+		{FC6A971C-189F-4B1E-952D-BAAA5D7725AA}.Release|x86.ActiveCfg = Release|x86
+		{FC6A971C-189F-4B1E-952D-BAAA5D7725AA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6698FFCD-D1E3-443E-B12F-01FC2DAE9C4B} = {C9CBCDDC-0178-4437-8E3B-4C8B2EAC7867}
+		{FC6A971C-189F-4B1E-952D-BAAA5D7725AA} = {C9CBCDDC-0178-4437-8E3B-4C8B2EAC7867}
+		{2645FDAF-D8EF-4BAE-B8B2-FE2DE6249949} = {9846AC50-729F-4B92-8948-DC91B597F854}
+		{5ACEF295-FD57-4115-8436-DB0020F9C158} = {9846AC50-729F-4B92-8948-DC91B597F854}
+		{70AEE476-CDCE-4105-93BF-94EAB207696C} = {9846AC50-729F-4B92-8948-DC91B597F854}
+	EndGlobalSection
+EndGlobal
